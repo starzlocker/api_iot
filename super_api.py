@@ -4,14 +4,56 @@ import json
 import threading
 from functools import wraps
 import base64
+import datetime
+
+ordens_de_producao = {
+    'REC00015': [
+        {
+            "id_ordem": "ORDEMPROD-0001",
+            "desc_ordem_producao": "Ordem de Produção 001",
+            "codigo_produto": "01-01-00001",
+            "detalhes": "ABC-123",
+            "qtde": "5",
+            "dt_conclusao_estimada": datetime.date.today().isoformat()
+        },
+        {
+            "id_ordem": "ORDEMPROD-0002",
+            "desc_ordem_producao": "Ordem de Produção 002",
+            "codigo_produto": "01-01-00002",
+            "detalhes": "ABC-123",
+            "qtde": "3",
+            "dt_conclusao_estimada": datetime.date.today().isoformat()
+        },
+        {
+            "id_ordem": "ORDEMPROD-0003",
+            "desc_ordem_producao": "Ordem de Produção 003",
+            "codigo_produto": "01-01-00003",
+            "detalhes": "ABC-123",
+            "qtde": "5000",
+            "dt_conclusao_estimada": datetime.date.today().isoformat()
+        }
+    ] 
+}
+
+ordem_default = [
+    {
+        "id_ordem": "SEM OP ESPECIFICADA",
+        "desc_ordem_producao": "",
+        "codigo_produto": "",
+        "detalhes": "",
+        "qtde": "",
+        "dt_conclusao_estimada": ""
+    }
+]
 
 app = Flask(__name__)
 counter = 0
 
-def adicionar_registro(data):
+def adicionar_registro(data, tipo='GET'):
     try:
+        log_file = './log_requests.log' if tipo == 'POST' else './log_gets.log'
         with file_lock:
-            with open('./log_requests.log', '+a', encoding='utf-8') as file:
+            with open(log_file, 'a', encoding='utf-8') as file:
                 file.write(json.dumps(data, indent=2) + '\n\n')
                 file.flush()
     except Exception as e:
@@ -69,10 +111,32 @@ def validate_basic_auth(encoded_credentials):
         
     except Exception as e:
         return jsonify({'error': f'Invalid Basic Auth credentials: {str(e)}'}), 401
+    
 
-@app.route('/iot', methods=['POST'])
+@app.route('/', methods=['GET'])
+# @validate_headers(['User-Agent', 'Content-Type'])
+def get():
+    
+    adicionar_registro(request.full_path, 'GET')
+    
+    id_machine = request.args.get('idmachine')
+    search = request.args.get('search')
+    
+    data = ordens_de_producao.get(id_machine, None)
+    
+    if data is None:
+        data = ordem_default
+
+    elif len(data) > 0 and search:
+        data = [ordem for ordem in data if search in ordem['id_ordem'] or search in ordem['codigo_produto']]
+
+    adicionar_registro(data, 'GET')
+    return jsonify(data)
+
+
+@app.route('/', methods=['POST'])
 @validate_headers(['User-Agent', 'Content-Type'])
-def iot():
+def post():
     global counter
     try:        
         data = request.json
@@ -80,15 +144,15 @@ def iot():
             counter = 0
         if int(data['NAME'][-1]) % 2 != 0 and counter > 0:
             counter -= 1
-            print(f'{data['NAME']} falha numero {counter}')
+            print(f'{data["NAME"]} falha numero {counter}')
             return jsonify({'error': 'Odd number in name'}), 400
-                
-        print(f'Recebido: {data['NAME']}')
-        
+
+        print(f'Recebido: {data["NAME"]}')
+
         if not data:
             return jsonify({'error': 'No JSON data provided'}), 400
                 
-        adicionar_registro(data)
+        adicionar_registro(data, 'POST')
             
         counter = 5
         
@@ -106,22 +170,13 @@ def iot():
             username = 'token_user'
 
         return  ({
-            'status': 'OK',
             'message': f'Dados recebidos com sucesso: {username} validado',
-            }), 200
+            'data': data
+        }), 200
     except Exception as e:
         return jsonify({'error': f'Invalid JSON data: {str(e)}'}), 400
         
 
-@app.route('/', methods=['GET'])
-def home():
-    print('API accessed')
-    return jsonify({'message': 'API is running! Send POST to /iot'})
-
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     app.run(host='192.168.101.91', port=port, debug=True, threaded=True)
-    
-    
-
-        
