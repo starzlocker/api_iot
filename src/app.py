@@ -48,17 +48,6 @@ ordem_default = [
 
 app = Flask(__name__)
 counter = 0
-
-def adicionar_registro(data, tipo='GET'):
-    try:
-        log_file = './log_requests.log' if tipo == 'POST' else './log_gets.log'
-        with file_lock:
-            with open(log_file, 'a', encoding='utf-8') as file:
-                file.write(json.dumps(data, indent=2) + '\n\n')
-                file.flush()
-    except Exception as e:
-        print(f"Erro ao escrever no arquivo: {e}")
-            
             
 file_lock = threading.Lock()
 
@@ -118,7 +107,7 @@ def validate_basic_auth(encoded_credentials):
 # @validate_headers(['User-Agent', 'Content-Type'])
 def get():
     
-    adicionar_registro(request.full_path, 'GET')
+    # adicionar_registro(request.full_path, 'GET')
     
     id_machine = request.args.get('idmachine')
     search = request.args.get('search')
@@ -133,6 +122,76 @@ def get():
 
     adicionar_registro(data, 'GET')
     return jsonify(data)
+
+@app.route('/logs_get', methods=['GET'])
+def logs_get():
+    try:
+        with open('./log_gets.log', 'r', encoding='utf-8') as file:
+            content = file.read().strip()
+            
+        if not content:
+            return jsonify({"content": [], "message": "Log vazio"}), 200
+            
+        # O arquivo tem formato: json1, \njson2, \njson3, \n
+        # Vamos limpar e converter em array válido
+        
+        # Remove vírgulas finais e quebras de linha extras
+        content = content.rstrip(', \n')
+        
+        # Adiciona colchetes para formar um array JSON válido
+        json_array_string = '[' + content + ']'
+        
+        # Parse do JSON
+        json_data = json.loads(json_array_string)
+        
+        return jsonify({
+            "total_entries": len(json_data),
+            "content": json_data
+        }), 200
+        
+    except FileNotFoundError:
+        return jsonify({"error": "Log file not found"}), 404
+    except json.JSONDecodeError as e:
+        return jsonify({"error": f"Invalid JSON in log file: {str(e)}"}), 500
+    except Exception as e:
+        return jsonify({"error": f"Error reading log: {str(e)}"}), 500
+
+@app.route('/logs_post', methods=['GET'])
+def logs_post():
+    try:
+        with open('./log_requests.log', 'r', encoding='utf-8') as file:
+            content = file.read().strip()
+            
+        if not content:
+            return jsonify({"content": [], "message": "Log vazio"}), 200
+            
+        # Mesmo processo para o log de POST
+        content = content.rstrip(', \n')
+        json_array_string = '[' + content + ']'
+        json_data = json.loads(json_array_string)
+        
+        return jsonify({
+            "total_entries": len(json_data),
+            "content": json_data
+        }), 200
+        
+    except FileNotFoundError:
+        return jsonify({"error": "Log file not found"}), 404
+    except json.JSONDecodeError as e:
+        return jsonify({"error": f"Invalid JSON in log file: {str(e)}"}), 500
+    except Exception as e:
+        return jsonify({"error": f"Error reading log: {str(e)}"}), 500
+
+# Também corrija a função de adicionar registro:
+def adicionar_registro(data, tipo='GET'):
+    try:
+        log_file = './log_requests.log' if tipo == 'POST' else './log_gets.log'
+        with file_lock:
+            with open(log_file, 'a', encoding='utf-8') as file:
+                file.write(json.dumps(data, indent=2, ensure_ascii=False) + ',\n')  # Mudou aqui
+                file.flush()
+    except Exception as e:
+        print(f"Erro ao escrever no arquivo: {e}")
 
 
 @app.route('/', methods=['POST'])
@@ -179,5 +238,5 @@ def post():
         
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))
+    port = int(os.environ.get('PORT', 5001))
     app.run(host='192.168.101.91', port=port, debug=True, threaded=True)
