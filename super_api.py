@@ -136,7 +136,7 @@ def get():
 
 
 @app.route('/', methods=['POST'])
-@validate_headers(['User-Agent', 'Content-Type'])
+# @validate_headers(['User-Agent', 'Content-Type'])
 def post():
     global counter
     try:        
