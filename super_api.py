@@ -80,6 +80,7 @@ def validate_headers(required_headers=None):
             auth_header = request.headers.get('Authorization')
             print(auth_header)
             if auth_header:
+                
                 if auth_header.startswith('Bearer '):
                     token = auth_header.replace('Bearer ', '')
                     if token != '1234':  # Substitua pela sua validação

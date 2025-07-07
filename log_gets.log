@@ -4772,3 +4772,1398 @@
   }
 ]
 
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-03"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-03"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-03"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-03"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-03"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-03"
+  }
+]
+
+"/?idmachine=REC00015&search=0001"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-03"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-03"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-03"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-03"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-03"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-03"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-03"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-03"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-03"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-03"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015&search=01"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015&search=ORDEMPROD-0001"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015&search=ORDEMPROD-0003"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015&search=5000"
+
+[]
+
+"/?idmachine=REC00015&search=1000"
+
+[]
+
+"/?idmachine=REC00015&search=1"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015&search=ABC-123"
+
+[]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015&search=0002"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015&search=ORDEMPROD-0001"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015&search=ORDEMPROD-0001"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
+"/?idmachine=REC00015"
+
+[
+  {
+    "id_ordem": "ORDEMPROD-0001",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 001",
+    "codigo_produto": "01-01-00001",
+    "detalhes": "ABC-123",
+    "qtde": "5",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0002",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 002",
+    "codigo_produto": "01-01-00002",
+    "detalhes": "ABC-123",
+    "qtde": "3",
+    "dt_conclusao_estimada": "2025-07-07"
+  },
+  {
+    "id_ordem": "ORDEMPROD-0003",
+    "desc_ordem_producao": "Ordem de Produ\u00e7\u00e3o 003",
+    "codigo_produto": "01-01-00003",
+    "detalhes": "ABC-123",
+    "qtde": "5000",
+    "dt_conclusao_estimada": "2025-07-07"
+  }
+]
+
