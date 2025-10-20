@@ -1,2 +1,3 @@
 log_gets.log
-log_post.log
+log_requests.log
+*.log
