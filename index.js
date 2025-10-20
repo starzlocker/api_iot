@@ -113,7 +113,38 @@ const logFiles = {
 
 function adicionarRegistro(data, tipo = "GET") {
   const logFile = tipo === "POST" ? logFiles.post : logFiles.get;
-  fs.appendFileSync(logFile, JSON.stringify(data, null, 2) + ",\n", "utf-8");
+  
+  if (tipo === "GET") {
+    // Para GET, sobrescreve o arquivo (limpa o anterior)
+    fs.writeFileSync(logFile, JSON.stringify(data, null, 2) + ",\n", "utf-8");
+  } else {
+    // Para POST, mantém apenas os últimos 10 registros
+    let registros = [];
+    
+    // Lê os registros existentes se o arquivo existir
+    if (fs.existsSync(logFile)) {
+      try {
+        const content = fs.readFileSync(logFile, "utf-8").trim();
+        if (content) {
+          registros = JSON.parse("[" + content.replace(/,\s*$/, "") + "]");
+        }
+      } catch (err) {
+        console.error("Erro ao ler log:", err.message);
+      }
+    }
+    
+    // Adiciona o novo registro
+    registros.push(data);
+    
+    // Mantém apenas os últimos 10
+    if (registros.length > 10) {
+      registros = registros.slice(-10);
+    }
+    
+    // Reescreve o arquivo com os últimos 10 registros
+    const conteudo = registros.map(r => JSON.stringify(r, null, 2)).join(",\n") + ",\n";
+    fs.writeFileSync(logFile, conteudo, "utf-8");
+  }
 }
 
 function validateBasicAuth(token) {
