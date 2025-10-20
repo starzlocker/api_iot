@@ -12,7 +12,7 @@ const port = 3001;
 app.use(bodyParser.json());
 
 const ordensDeProducao = {
-  REC00005: [
+  REC00001: [
     {
       id_ordem: "ORDEMPROD-0001",
       desc_ordem_producao: "Ordem de Produção 001",
@@ -37,7 +37,62 @@ const ordensDeProducao = {
       qtde: "5000",
       dt_conclusao_estimada: new Date().toISOString().split("T")[0]
     }
-  ]
+  ],
+  REC00002: [
+    {
+      id_ordem: "ORDEMPROD-0004",
+      desc_ordem_producao: "Ordem de Produção 001",
+      codigo_produto: "01-01-00001",
+      detalhes: "ABC-123",
+      qtde: "5",
+      dt_conclusao_estimada: new Date().toISOString().split("T")[0]
+    },
+    {
+      id_ordem: "ORDEMPROD-0005",
+      desc_ordem_producao: "Ordem de Produção 002",
+      codigo_produto: "01-01-00002",
+      detalhes: "ABC-123",
+      qtde: "3",
+      dt_conclusao_estimada: new Date().toISOString().split("T")[0]
+    },
+    {
+      id_ordem: "ORDEMPROD-0006",
+      desc_ordem_producao: "Ordem de Produção 003",
+      codigo_produto: "01-01-00003",
+      detalhes: "ABC-123",
+      qtde: "5000",
+      dt_conclusao_estimada: new Date().toISOString().split("T")[0]
+    }
+  ],
+  REC00003: [
+    {
+      id_ordem: "ORDEMPROD-0007",
+      desc_ordem_producao: "Ordem de Produção 001",
+      codigo_produto: "01-01-00001",
+      detalhes: "ABC-123",
+      qtde: "5",
+      dt_conclusao_estimada: new Date().toISOString().split("T")[0]
+    },
+    {
+      id_ordem: "ORDEMPROD-0008",
+      desc_ordem_producao: "Ordem de Produção 002",
+      codigo_produto: "01-01-00002",
+      detalhes: "ABC-123",
+      qtde: "3",
+      dt_conclusao_estimada: new Date().toISOString().split("T")[0]
+    },
+    {
+      id_ordem: "ORDEMPROD-0009",
+      desc_ordem_producao: "Ordem de Produção 003",
+      codigo_produto: "01-01-00003",
+      detalhes: "ABC-123",
+      qtde: "5000",
+      dt_conclusao_estimada: new Date().toISOString().split("T")[0]
+    }
+  ],
+
+
+
 };
 
 const ordemDefault = [
@@ -77,9 +132,8 @@ function validateBasicAuth(token) {
 
 // GET /
 app.get("/", (req, res) => {
-  const { idmachine, search } = req.query;
-  if (!idmachine) return res.status(400).json({ error: "Especifique o recurso" });
-
+  const { idmachine, group, search } = req.query;
+  if (!idmachine and !group) return res.status(400).json({ error: "Especifique o recurso ou grupo" });
   let data = ordensDeProducao[idmachine] || ordemDefault;
   if (search) {
     data = data.filter(
@@ -89,6 +143,9 @@ app.get("/", (req, res) => {
     );
   }
 
+	data["idmachine"]=idmachine
+	data["group"]=group
+	data["search"]=search
   adicionarRegistro(data, "GET");
   return res.json(data);
 });
