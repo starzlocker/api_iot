@@ -133,7 +133,7 @@ function validateBasicAuth(token) {
 // GET /
 app.get("/", (req, res) => {
   const { idmachine, group, search } = req.query;
-  if (!idmachine and !group) return res.status(400).json({ error: "Especifique o recurso ou grupo" });
+  if (!idmachine && !group) return res.status(400).json({ error: "Especifique o recurso ou grupo" });
   let data = ordensDeProducao[idmachine] || ordemDefault;
   if (search) {
     data = data.filter(
@@ -142,12 +142,12 @@ app.get("/", (req, res) => {
         ordem.codigo_produto.includes(search)
     );
   }
-
-	data["idmachine"]=idmachine
-	data["group"]=group
-	data["search"]=search
+	const meta = {};
+	meta["idmachine"]=idmachine
+	meta["group"]=group
+	meta["search"]=search
   adicionarRegistro(data, "GET");
-  return res.json(data);
+  return res.json([data, meta]);
 });
 
 // GET /logs_get
